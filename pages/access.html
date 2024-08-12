@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+     <meta charset="utf-8">
+     <title>てらしま整骨院</title>
+     <link rel="stylesheet" href="../statics/style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script type="text/javascript" src="../statics/index.js"></script>
+</head>
+
+<body>
+    <header class="bar">
+        <div class="menu">
+            <span class="menu__line menu__line--top"></span>
+            <span class="menu__line menu__line--center"></span>
+            <span class="menu__line menu__line--bottom"></span>
+        </div>
+        <nav class="gnav">
+            <div class="gnav__wrap">
+                <ul class="gnav__menu">
+                    <li class="gnav__menu__item"><a href="../index.html">Top</a></li>
+                    <li class="gnav__menu__item"><a href="access.html">アクセス</a></li>
+                    <li class="gnav__menu__item"><a href="hospital.html">院内紹介</a></li>
+                    <li class="gnav__menu__item"><a href="accident.html">交通事故治療について</a></li>
+                    <li class="gnav__menu__item"><a href="ziritsu.html">自律神経の乱れ</a></li>
+                    <li class="gnav__menu__item"><a href="fee.html">料金について</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="logotel">
+            <div class="logo">
+                <p>てらしま整骨院</p>
+            </div>
+            <div class="tel">
+                <p>TEL 03-3926-1235</p>
+            </div>
+        </div>
+    </header>
+
+      
+    <div class="hero">
+        <img  class="herophoto" src="../image/hero.png">
+        <p>アクセス</p>
+    </div>
+    <div>
+        <p class="underline">マップ</p>
+    </div>
+    <div class="umekomi">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6475.632403469119!2d139.63457894069484!3d35.755322072677714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ec45ae5fbbbf%3A0x8968f90717d98bf0!2z44Gm44KJ44GX44G-5pW06aqo6Zmi!5e0!3m2!1sja!2sjp!4v1710612311200!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="ac_setumei">
+        <p class="paragraph">
+            〒179-0074 東京都練馬区春日町6丁目8-46
+        </p>
+        <p class="paragraph">
+            練馬春日町駅から徒歩約7分
+        </p>
+    </div>
+    <div>
+        <p class="underline">アクセス方法</p>
+    </div>
+    <div class="ac_setumei">
+        <p clss="paragraph">
+            練馬春日町駅からの道順はこちらになります。
+        </p>
+    </div>
+    <div class="mitijun">
+        <div class="miti_item">
+            <img src="../image/access1.jpg">
+            <p class="paragraph">
+                春日町駅前の交差点を<br>
+                「北豊島口自動車教習所」方向へ向かいます。
+            </p>
+        </div>
+        <div class="yajirushi">
+            <p class="paragraph">
+                →
+            </p>
+        </div>
+        <div class="miti_item">
+            <img src="../image/access2.jpg">
+            <p class="paragraph">
+                左手に「ミヤマ珈琲」「マツモトキヨシ」を通り過ぎます。
+            </p>
+        </div>
+        <div class="yajirushi">
+            <p class="paragraph">
+                →
+            </p>
+        </div>
+        <div class="miti_item">
+            <img src="../image/access3.jpg">
+            <p class="paragraph">
+                そのまま進むと「ガスト」が左手に出てきます。<br> 
+                その3軒先が「てらしま整骨院」になります。
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="name">
+            <p class="tera pargraph">
+                てらしま整骨院
+            </p>
+            <p>
+               Tel 03-3926-1235
+            </p>
+        </div>
+        <div class="f_content">
+                <p class="paragraph"><a href="../index.html">HOME</a></p>
+                <p class="paragraph"><a href="../pages/access.html">アクセス</a></p>
+                <p class="paragraph"><a href="../pages/hospital.html">院内案内</a></p>
+        </div>
+        <div class="f_content">
+            <p class="paragraph"><a href="../pages/heal.html">治療について</a></p> 
+            <p class="paragraph"><a href="../pages/accident.html">交通事故治療について</a></p>
+        </div>
+    </div>
+    <style>
+        body{
+            background-color: #ffffff;
+            margin: 0;
+        }
+       .umekomi{
+        margin: 0 auto;
+        padding: 1rem 0 1rem;
+        width: 50%;
+       }
+       .umekomi iframe{
+        width: 100%;
+       }
+       .ac_setumei{
+        text-align: center;
+       }
+       .mitijun{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            margin: 3rem ;
+        }
+        .miti_item{
+            width: 20%;
+            text-align: center;
+        }
+        .miti_item img{
+            width: 100%;
+        }
+        @media screen and (max-width: 767px) {
+            .mitijun{
+                flex-direction: column;
+            }
+            .miti_item{
+                width: 55%;
+            }
+            .yajirushi{
+                display: none;
+            }
+        }
+    </style>
+</body>

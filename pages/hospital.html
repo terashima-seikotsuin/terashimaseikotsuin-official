@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+     <meta charset="utf-8">
+     <title>てらしま整骨院</title>
+     <link rel="stylesheet" href="../statics/style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script type="text/javascript" src="../statics/index.js"></script>
+</head>
+
+<body>
+  <header class="bar">
+    <div class="menu">
+        <span class="menu__line menu__line--top"></span>
+        <span class="menu__line menu__line--center"></span>
+        <span class="menu__line menu__line--bottom"></span>
+    </div>
+    <nav class="gnav">
+        <div class="gnav__wrap">
+            <ul class="gnav__menu">
+              <li class="gnav__menu__item"><a href="../index.html">Top</a></li>
+              <li class="gnav__menu__item"><a href="access.html">アクセス</a></li>
+              <li class="gnav__menu__item"><a href="hospital.html">院内紹介</a></li>
+              <li class="gnav__menu__item"><a href="accident.html">交通事故治療について</a></li>
+              <li class="gnav__menu__item"><a href="ziritsu.html">自律神経の乱れ</a></li>
+              <li class="gnav__menu__item"><a href="fee.html">料金について</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="logotel">
+        <div class="logo">
+            <p>てらしま整骨院</p>
+        </div>
+        <div class="tel">
+            <p>TEL 03-3926-1235</p>
+        </div>
+    </div>
+</header>
+    <div class="hero">
+        <img  class="herophoto" src="../image/hero.png">
+        <p>院内紹介</p>
+    </div>
+    <div>
+      <p class="underline">
+        院内のようす
+      </p>
+    </div>
+    <div class="virus">
+      <div class="virus_item migi ">
+        <img src="../image/innai1.jpg">
+      </div>
+      <div class="virus_item migi ">
+        <img src="../image/innai2.jpg">
+      </div>
+      <div class="virus_item" >
+        <img src="../image/innai3.jpg">
+      </div>
+    </div>
+
+    <div class="virus">
+      <div class="virus_item migi ">
+        <img src="../image/innai4.jpg">
+      </div>
+      <div class="virus_item migi ">
+        <img src="../image/innai5.jpg">
+      </div>
+      <div class="virus_item" >
+        <img src="../image/innai6.jpg">
+      </div>
+    </div>
+
+    <div class="virus">
+      <div class="virus_item migi ">
+        <img src="../image/innai7.jpg">
+      </div>
+      <div class="virus_item migi ">
+        <img src="../image/innai8.jpg">
+      </div>
+      <div class="virus_item" >
+        <img src="../image/innai9.jpg">
+      </div>
+    </div>
+
+
+
+    <div class="footer">
+      <div class="name">
+          <p class="tera pargraph">
+              てらしま整骨院
+          </p>
+          <p>
+             Tel 03-3926-1235
+          </p>
+      </div>
+      <div class="f_content">
+              <p class="paragraph"><a href="../index.html">HOME</a></p>
+              <p class="paragraph"><a href="../pages/access.html">アクセス</a></p>
+              <p class="paragraph"><a href="../pages/hospital.html">院内案内</a></p>
+      </div>
+      <div class="f_content">
+          <p class:="paragraph"><a href="../pages/heal.html">治療について</a></p> 
+          <p class="paragraph"><a href="../pages/accident.html">交通事故治療について</a></p>
+      </div>
+  </div>
+    <style>
+        body{
+            background-color: #ffffff;
+            margin: 0;
+        }
+        .virus_text{
+          text-align: center;
+          margin-bottom: 1rem;
+        }
+
+        .underline{
+          font-size: 17px;
+          margin-bottom: 20px;
+        }
+
+
+/* フレキシブルなレイアウト設定 */
+.virus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.virus_item {
+  width: 20%;
+  opacity: 0;
+}
+
+.virus_item img {
+  width: 100%;
+}
+
+.migi {
+  padding-right: 3rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .virus {
+    flex-direction: column;
+  }
+  .virus_item {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .migi {
+    padding: 0;
+  }
+
+}
+
+
+    </style>
+</body>
